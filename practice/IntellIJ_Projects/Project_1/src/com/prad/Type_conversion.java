@@ -16,7 +16,12 @@ public class Type_conversion {
         byte x = 20;
         byte y = 30;
         byte z = 100;
-        int f  = (x * y) / z;
+        int f  = (x * y) / z; //When performing operations on Byte, java automatically  converts it into Int
         System.out.println(f);
+
+        //char to int (Automatic)
+
+        int number = 'A';
+        System.out.println(number);
     }
 }
